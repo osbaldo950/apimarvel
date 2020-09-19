@@ -3,7 +3,7 @@
 ### 1.- Clonar el repostorio en local
 
 ```bash
-git clone https://github.com/osbaldo950/admintemplatelaravel7.git
+git clone https://github.com/osbaldo950/apimarvel.git
 ```
 
 ### 2.- Entrar a la carpeta clonada y instalar paquetes de la aplicación
@@ -12,13 +12,13 @@ git clone https://github.com/osbaldo950/admintemplatelaravel7.git
 composer install
 ```
 
-### 3.- Crear y configurar archivo .env de nuestra aplicación, realizando la conexión a la base de datos
+### 3.- Crear y configurar archivo .env de nuestra aplicación, realizando la conexión a la base de datos, crear base de datos marvelapi
 
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=BD
+DB_DATABASE=marvelapi
 DB_USERNAME=USER
 DB_PASSWORD=PASS
 ```
