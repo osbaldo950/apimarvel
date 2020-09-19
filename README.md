@@ -12,7 +12,7 @@ git clone https://github.com/osbaldo950/apimarvel.git
 composer install
 ```
 
-### 3.- Crear y configurar archivo .env de nuestra aplicación, realizando la conexión a la base de datos, crear base de datos marvelapi
+### 3.- Configurar  la conexión a la base de datos en el archivo .env de nuestra aplicación, localizado en la carpeta raiz
 
 ```bash
 DB_CONNECTION=mysql
